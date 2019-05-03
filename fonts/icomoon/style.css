@@ -1,0 +1,215 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ho149x');
+  src:  url('fonts/icomoon.eot?ho149x#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ho149x') format('truetype'),
+    url('fonts/icomoon.woff?ho149x') format('woff'),
+    url('fonts/icomoon.svg?ho149x#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Bitcoin:before {
+  content: "\e934";
+}
+.icon-dolar:before {
+  content: "\e93e";
+}
+.icon-ethereum:before {
+  content: "\e93a";
+}
+.icon-humans1:before {
+  content: "\e93b";
+}
+.icon-soc11:before {
+  content: "\e93c";
+}
+.icon-soc22:before {
+  content: "\e93d";
+}
+.icon-soc5:before {
+  content: "\e938";
+}
+.icon-soc6:before {
+  content: "\e939";
+}
+.icon-humans:before {
+  content: "\e92f";
+}
+.icon-inputs:before {
+  content: "\e930";
+}
+.icon-key:before {
+  content: "\e931";
+}
+.icon-lock:before {
+  content: "\e932";
+}
+.icon-outputs:before {
+  content: "\e933";
+}
+.icon-soc2:before {
+  content: "\e935";
+}
+.icon-soc3:before {
+  content: "\e936";
+}
+.icon-soc4:before {
+  content: "\e937";
+}
+.icon-administration:before {
+  content: "\e900";
+}
+.icon-analysis-3:before {
+  content: "\e901";
+}
+.icon-billboard-3:before {
+  content: "\e902";
+}
+.icon-bullet-point-1:before {
+  content: "\e903";
+}
+.icon-calculator-17:before {
+  content: "\e904";
+}
+.icon-certificate-9:before {
+  content: "\e905";
+}
+.icon-check-in:before {
+  content: "\e906";
+}
+.icon-clock-22--:before {
+  content: "\e907";
+}
+.icon-clock-22:before {
+  content: "\e908";
+}
+.icon-coffee-beans-1:before {
+  content: "\e909";
+}
+.icon-cogwheel:before {
+  content: "\e90a";
+}
+.icon-coin-14:before {
+  content: "\e90b";
+}
+.icon-communication:before {
+  content: "\e90c";
+}
+.icon-computer-2:before {
+  content: "\e90d";
+}
+.icon-content-1:before {
+  content: "\e90e";
+}
+.icon-corn:before {
+  content: "\e90f";
+}
+.icon-customer-service:before {
+  content: "\e910";
+}
+.icon-dialogue:before {
+  content: "\e911";
+}
+.icon-diesel:before {
+  content: "\e912";
+}
+.icon-earth-globe-2:before {
+  content: "\e913";
+}
+.icon-email-32:before {
+  content: "\e914";
+}
+.icon-employee-1:before {
+  content: "\e915";
+}
+.icon-event-2:before {
+  content: "\e916";
+}
+.icon-exit-7:before {
+  content: "\e917";
+}
+.icon-gift-2:before {
+  content: "\e918";
+}
+.icon-gold-bars:before {
+  content: "\e919";
+}
+.icon-hand-4--:before {
+  content: "\e91a";
+}
+.icon-hand-4:before {
+  content: "\e91b";
+}
+.icon-jelly-beans:before {
+  content: "\e91c";
+}
+.icon-login-5:before {
+  content: "\e91d";
+}
+.icon-logs:before {
+  content: "\e91e";
+}
+.icon-play-button-12:before {
+  content: "\e91f";
+}
+.icon-plus-2:before {
+  content: "\e920";
+}
+.icon-plus-6:before {
+  content: "\e921";
+}
+.icon-presentation-3:before {
+  content: "\e922";
+}
+.icon-purse-2:before {
+  content: "\e923";
+}
+.icon-right-arrow-8:before {
+  content: "\e924";
+}
+.icon-safebox-10--:before {
+  content: "\e925";
+}
+.icon-safebox-10:before {
+  content: "\e926";
+}
+.icon-search-17:before {
+  content: "\e927";
+}
+.icon-server-9:before {
+  content: "\e928";
+}
+.icon-sirloin-steak:before {
+  content: "\e929";
+}
+.icon-support-8:before {
+  content: "\e92a";
+}
+.icon-team-9:before {
+  content: "\e92b";
+}
+.icon-wallet-23:before {
+  content: "\e92c";
+}
+.icon-website-3:before {
+  content: "\e92d";
+}
+.icon-yarn:before {
+  content: "\e92e";
+}
