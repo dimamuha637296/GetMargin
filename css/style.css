@@ -1,4 +1,4 @@
-/*:root {*/
+﻿/*:root {*/
 /*    --yellow: #ffe742;*/
 /*    --aqua: #1cae98;*/
 /*    --lightAqua: #60e1ce;*/
@@ -14,7 +14,7 @@
 *, *:before, *:after {
     box-sizing: border-box;
 }
-
+/**/
 body {
     margin: 0 auto;
     font-family: 'Montserrat', serif;
