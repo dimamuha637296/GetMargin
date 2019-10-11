@@ -31,9 +31,9 @@ $(document).ready(function () {
     });
 
     $(".openTextBtn").on('click', function () {
-        $(this).closest($(".wrapper")).find($("[hidden]")).removeAttr("hidden");
+        $(this).closest($(".container")).find($("[hidden]")).removeAttr("hidden");
         $(this).css('display', 'none');
-    })
+    });
 });
 
 

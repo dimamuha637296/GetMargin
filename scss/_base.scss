@@ -1,0 +1,72 @@
+@import "_values";
+@import "_mixins";
+
+* {
+    @include box-sizing(border-box);
+    &:before,
+    &:after {
+        @include box-sizing(border-box);
+    }
+}
+
+body {
+    position: relative;
+    font-family: $font1;
+    padding: 0px;
+    margin: 0px auto;
+    line-height: 1;
+    color: $color6;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+select,
+input,
+textarea {
+    width: 100%;
+    @include outline(none);
+    background: transparent;
+    @include box-shadow(none);
+    border: none;
+    font-family: $font1;
+}
+
+button {
+    @include outline(none);
+}
+
+// @media (max-width: $maxMediaMD) {
+//     body {
+//         padding-top: 101px;
+//     }
+// }
+
+// @media (max-width: $maxMediaSM) {
+//     body {
+//         padding-top: 91px;
+//     }
+// }
+
+// @media (max-width: $maxMediaXS) {
+//     body {
+//         padding-top: 45px;
+//     }
+// }

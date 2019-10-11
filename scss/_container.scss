@@ -1,0 +1,48 @@
+@import "_values";
+.container {
+    width: $containerLG;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+@media (max-width: $maxMediaSD) {
+    .container {
+        width: $containerSD;
+    }   
+}
+@media (max-width: $maxMediaMD) {
+    .container {
+        width: $containerMD;
+    }   
+}
+@media (max-width: $maxMediaSM) {
+    .container {
+        width: $containerSM;
+    }   
+}
+@media (max-width: $maxMediaXS) {
+    .container {
+        width: $containerXS;
+    }   
+}
+@media (max-width: $maxMediaXSS) {
+    .container {
+        width: $containerXSS;
+    }   
+}
+// @media (max-width: $maxMediaMD) {
+//     .container {
+//         width: $containerLG;
+//     }
+// }
+
+// @media (max-width: $maxMediaSM) {
+//     .container {
+//         width: $containerSM;
+//     }
+// }
+
+// @media (max-width: $maxMediaXS) {
+//     .container {
+//         width: $containerXS;
+//     }
+// }
