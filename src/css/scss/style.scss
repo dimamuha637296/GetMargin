@@ -77,7 +77,7 @@ input:not([type="radio"]):not([type="range"]):not([type="checkbox"]) {
 
 input[type=number] {
   -moz-appearance: textfield;
-  background-image: url(../img/svg/dolar-dark.svg);
+  background-image: url(../../img/svg/dolar-dark.svg);
   @include back-img(16px, calc(100% - 16px) center, no-repeat);
 
   &::-webkit-inner-spin-button,
@@ -288,7 +288,7 @@ header {
 
 
 .homeFon {
-  background-image: url("../img/jpg/headerFone.jpg");
+  background-image: url("../../img/jpg/headerFone.jpg");
   @include back-img(null, center top, no-repeat);
   background-color: $color4;
   position: relative;
@@ -351,7 +351,7 @@ header {
 }
 
 .info {
-  background-image: url("../img/jpg/homeMap.jpg");
+  background-image: url("../../img/jpg/homeMap.jpg");
   @include back-img(cover, center 58%, no-repeat);
   padding: 150px 0 160px;
 
@@ -475,7 +475,7 @@ header {
 }
 
 .whySelectUs {
-  background: url("../img/jpg/homeWhyWithUs.jpg") no-repeat center/cover;
+  background: url("../../img/jpg/homeWhyWithUs.jpg") no-repeat center/cover;
   color: $color1;
   padding-top: 160px;
   padding-bottom: 160px;
@@ -533,7 +533,7 @@ header {
 
 .strangeFonsTop {
   background-color: $color4;
-  background: url("../img/jpg/strangeFonTop1.jpg") no-repeat center bottom/cover;
+  background: url("../../img/jpg/strangeFonTop1.jpg") no-repeat center bottom/cover;
   padding-top: 135px;
   padding-bottom: 200px;
 
@@ -900,7 +900,7 @@ header {
 
 .strangeFonsBottom {
   background-color: $color6;
-  background: url("../img/jpg/strangeFonBottom1.jpg") no-repeat center top/cover;
+  background: url("../../img/jpg/strangeFonBottom1.jpg") no-repeat center top/cover;
   padding-top: 188px;
   padding-bottom: 218px;
 
@@ -1075,7 +1075,7 @@ header {
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-    background-image: url(../img/png/newsHover.png);
+    background-image: url(../../img/png/newsHover.png);
     opacity: 0;
     z-index: -1;
   }
@@ -1122,8 +1122,8 @@ header {
 }
 
 .bottomPage {
-  /*background: url("../img/jpg/bottomFone.jpg") no-repeat center bottom, $color4;*/
-  background-image: url("../img/jpg/bottomFone.jpg");
+  /*background: url("../../img/jpg/bottomFone.jpg") no-repeat center bottom, $color4;*/
+  background-image: url("../../img/jpg/bottomFone.jpg");
   @include back-img(cover, center bottom, no-repeat);
   background-color: $color4;
 
